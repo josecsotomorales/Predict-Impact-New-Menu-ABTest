@@ -1,4 +1,15 @@
 # Predict-Impact-New-Menu-ABTest
+En-Us
+Round Roasters, a coffee restaurant in the United States of America. The company needs to implement a growth initiative, given that in the past few years the growth levels off and sales become stagnant. The growth initiative is to introduce gourmet sandwiches to the menu, along with limited wine offerings. It is crucial to drive people into the stores with these new offerings through television advertising campaign. The television campaign will require a significant boost in the company’s marketing budget, but the profitability is unknown. It is necessary needs to figure whether the new menu can drive enough sales to offset the cost of marketing the new menu. To predicted impact to profitability, we implement A/B testing. In particular, we apply the changes in two markets that their performance would be a good proxy to predict how well the updated menu performs.
+The Gross margin helps a company assess the profitability of characteristics activities. Then, this measure is used as the performance metric of the test.
+
+The test ran for a period of 12 weeks (2016-April-29 to 2016-July-21) where five stores in each of the test markets offered the updated menu along with television advertising. The file “treatment-stores” contains store information for this store.
+
+The file “RoundRoastersTransactions” contains transaction level information for all of Round Roaster's stores from 2015-January-21 to 2016-August-18, they are 574 days. The test should run for a normal cycle, we need to understand and track customer flow through the store. It is assumed that customer visits the stores at least once a week, then we aggregate the data to week level.
+
+We combine “RoundRoastersTransactions” file and “round-roaster-stores” file that contains store information for each Round Roaster store in the USA. We manipulate the data in particular with Date/Time Functions that present in the Alteryx and we obtain weekly traffic and sales for each store. Furthermore, we utilize also the “treatment-stores” file to create the list of control and treatment stores.
+
+Pt-Br
 O Problema do negócio
 Round Roasters é uma luxuosa franquia de cafés presente na costa oeste dos Estados Unidos da América. Os últimos anos representaram na estagnação no crescimento da franquia, e uma nova equipe de gestão foi montada para realavancar o crescimento de suas lojas.
 
